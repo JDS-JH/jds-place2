@@ -1,0 +1,54 @@
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .middle .contain{
+            height:550px ;
+            width: 480px;
+            background: white;
+            margin: 50px auto;
+
+        }
+        .middle .contain .top-contain{
+            height: 50px;
+            width: 440px;
+            margin-left: 20px;
+            border-bottom: 1px solid lightgray;
+            line-height:50px;
+        }
+        .middle .contain .top-contain h3{
+            float: left;
+            font-weight: normal;
+            font-size: 20px;
+            border-bottom: 3px solid blueviolet;
+            height: 50px;
+            box-sizing: border-box;
+        }
+        .middle .contain .top-contain a{
+            float: right;
+            font-size: 20px;
+            color: skyblue;
+            text-decoration: none;
+
+        }
+        .middle .contain .regist-contain{
+            margin-left: 20px;
+        }
+        .middle .contain .regist-contain>input{
+            height: 50px;
+            width: 440px;
+            margin-top: 30px;
+            font-size: 20px;
+            text-indent: 1em;
+            border-radius: 5px;
+            border: 1px solid gray;
+
+        }
+         .middle .contain .regist-contain .sub{
+        background: #43a1ff;
+    }

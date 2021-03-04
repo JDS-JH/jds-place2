@@ -1,0 +1,60 @@
+ *{
+            margin: 0;
+            padding: 0;
+        }
+
+
+    .middle .contain {
+        height: 550px;
+        width: 480px;
+        background: #fdf9ff;
+        margin: 50px auto;
+    }
+
+
+    .middle .contain .top-contain{
+            height: 50px;
+            width: 440px;
+            margin-left: 20px;
+            border-bottom: 1px solid lightgray;
+            line-height:50px;
+        }
+
+    .middle .contain .top-contain h3 {
+            float: left;
+            font-weight: normal;
+            font-size: 20px;
+            border-bottom: 3px solid blueviolet;
+            height: 50px;
+            box-sizing: border-box;
+           /*box-sizing:border-box*把下面那条紫色的实现弄到实线上一点*/
+        }
+    .middle .contain .top-contain a{
+            float: right;
+            font-size: 20px;
+            color: skyblue;
+            text-decoration: none;
+
+        }
+    .middle .contain .login-contain{
+            margin-left: 20px;
+        }
+    .middle .contain .login-contain>input{
+            height: 50px;
+            width: 440px;
+            margin-top: 110px;
+            font-size: 20px;
+            border-radius: 5px;
+            border: 1px solid gray;
+    }
+    .middle .contain .login-contain .sub{
+        background: #43a1ff;
+    }
+    .sub{
+        height: 50px;
+        width: 440px;
+        margin-top: 110px;
+        font-size: 20px;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }

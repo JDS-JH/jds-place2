@@ -1,0 +1,261 @@
+.box3{
+    width: 1000px;
+    height: 1500px;
+   /* border: 1px red solid;*/
+    margin: 20px auto;
+    background-color: #f8ece0;
+}
+.ts-bt{
+    margin-top: 40px;
+    padding-top: 50px;
+}
+.box3 img{
+    height: 200px;
+    width: 200px;
+}
+
+.ts{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+.pd-bt{
+    margin-top: 40px;
+}
+.pd{
+    display: flex;
+}
+@font-face {
+    font-family: "标题";
+    src: url("../font/心光闪闪中文.TTF");
+}
+.pd-img-1{
+    height:360px;
+    width: 780px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 85px;
+}
+.pd-img img{
+    width:230px;
+    height: 170px;
+}
+.pd-img{
+    margin-left: -85px;
+
+}
+.back-top{
+    position: fixed;
+    z-index: 7;
+    right: 50px;
+    top: 600px;
+    background-color: lightskyblue;
+    border-radius:50%;
+    text-align: center;
+    overflow: hidden;
+    display: none;
+}
+.tz1{
+    z-index: 10;
+    height: 60px;
+    width: 60px;
+    background-color: lightskyblue;
+    border-radius:50%;
+    padding-left: 10px;
+    padding-top: 12px;
+    right: 51px;
+    top: 500px;
+    position: fixed;
+}
+.tz2{
+    z-index: 10;
+    height: 60px;
+    width: 60px;
+    background-color: lightskyblue;
+    border-radius:50%;
+    padding-left: 10px;
+    padding-top: 12px;
+    right: 51px;
+    top: 400px;
+    position: fixed;
+}
+.tz3{
+    z-index: 10;
+    height: 60px;
+    width: 60px;
+    background-color: lightskyblue;
+    border-radius:50%;
+    padding-left: 10px;
+    padding-top: 12px;
+    right: 51px;
+    top: 300px;
+    position: fixed;
+}
+
+.back-top img{
+    width: 60px;
+    height: 60px;
+}
+.tj-bt{
+    margin-top: 40px;
+}
+.tj{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+.tj img{
+    height: 200px;
+    width: 200px;
+}
+@media screen and (min-width: 1050px){
+    .ts-bt{
+        margin-left: 425px;
+    }
+    .pd-bt{
+        margin-left: 425px;
+    }
+    .tj-bt{
+        margin-left: 425px;
+    }
+
+}
+@media screen and (max-width: 1050px){
+    .ts-bt{
+        margin-left: 430px;
+    }
+    .pd-bt{
+        margin-left: 430px;
+    }
+    .tj-bt{
+        margin-left: 430px;
+    }
+    .ts{
+        width: 800px;
+        margin: 0 auto;
+    }
+    .tj{
+        width: 800px;
+        margin: 0 auto;
+    }
+    .pd-big{
+        height: 300px;width: 80px;
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+    .pd-img-1{
+        height:350px;
+        width: 580px;
+        padding-left: 100px;
+
+    }
+    .pd-img-1 img{
+       height: 150px;
+    }
+}
+@media screen and (max-width: 900px){
+    .ts-bt{
+        margin-left: 380px;
+    }
+    .ts{
+        width: 500px;
+        margin-left: 200px;
+    }
+    .tj{
+        width: 500px;
+        margin-left: 200px;
+    }
+    .pd-bt{
+        margin-left: 380px;
+    }
+    .tj-bt{
+        margin-left: 380px;
+    }
+
+    .pd-big{
+        display: none;
+    }
+    .pd{
+        margin-left: 200px;
+        margin-bottom: 100px;
+    }
+
+}
+@media screen and (max-width: 600px){
+    .ts-bt{
+        margin-left: 180px;
+    }
+    .ts{
+        width: 200px;
+        margin-left: 150px;
+    }
+    .tj-bt{
+        margin-left: 180px;
+    }
+    .tj{
+        width: 200px;
+        margin-left: 150px;
+    }
+
+    .pd-bt{
+        margin-left: 180px;
+    }
+
+    .pd{
+        margin-left: 120px;
+        margin-bottom: 600px;
+    }
+    .box3{
+        height: 3000px;
+    }
+    .pd-img-1{
+        width: 200px;
+    }
+
+}
+.ts-wz{
+    position: relative;
+}
+.ts-wz p{
+    position: absolute;
+    top: 200px;
+    z-index: 100;
+    left: -30px;
+}
+.ts-wz{
+
+}
+.ts-wz img{
+    position: relative;
+}
+.ts-wz p{
+    height:0px;
+    width:200px;
+    position:absolute;
+    top:86px;
+    background: rgba(255,255,255,0.4);
+    overflow: hidden;
+    transition: 0.4s;
+    z-index: 100;
+    left: 0px;
+    color: white;
+}
+
+.ts-wz:hover p{
+    height:116px;
+}
+.ts-wz:hover img{
+    transform: scale(1.02);/*鼠标悬停图片放大*/
+}
+.pd-img-1:hover img{
+    transform: scale(1.02);/*鼠标悬停图片放大*/
+}
+.tj:hover img{
+    transform: scale(1.02);/*鼠标悬停图片放大*/
+}
+.pd-big:hover img{
+    transform: scale(1.02);/*鼠标悬停图片放大*/
+}
